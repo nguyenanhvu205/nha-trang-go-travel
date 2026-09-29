@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nha Trang Go Travel – Chạm vào biển, sống trọn Nha Trang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script>addEventListener('error',function(e){var t=e.target;if(!t||t.tagName!=='IMG')return;var f=t.getAttribute('data-fb');if(f&&t.getAttribute('src')!==f){t.src=f}else{var w=t.closest('.image-wrapper');if(w)w.classList.add('is-empty')}},true)</script>
+</head>
+<body>
+
+<!-- Header -->
+<header class="hd" id="top"><div class="wrap hd__in">
+  <a class="logo" href="#top">Nha Trang <em>Go Travel</em></a>
+  <nav class="nav" id="nav">
+    <a href="#featured">Tour</a><a href="#experience">Trải nghiệm</a><a href="#combo">Combo</a><a href="#discover">Cẩm nang</a><a href="#about">Giới thiệu</a>
+    <a class="hot" href="tel:0900123456"><i class="fa-solid fa-phone"></i> 0900 123 456</a>
+  </nav>
+  <a href="#cta" class="btn btn--sand hd__cta">Đặt tour</a>
+  <button class="burger" id="burger" aria-label="Menu" aria-controls="nav"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div></header>
+
+<main>
+<!-- Hero -->
+<section class="hero">
+  <div class="hero__bg image-wrapper" id="heroBg"><img src="assets/images/hero-nha-trang.jpg" data-fb="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1900&q=75" alt="Vịnh Nha Trang và biển xanh ngọc" fetchpriority="high"></div>
+  <div class="wrap hero__in">
+    <div class="hero__txt">
+      <p class="eyebrow">NHA TRANG · VIETNAM</p>
+      <h1>Chạm vào biển,<br><em>sống trọn</em> Nha Trang.</h1>
+      <p class="lead">Tour biển đảo, lặn san hô và những hành trình địa phương được chọn cho từng cách đi.</p>
+      <div class="row"><a href="#featured" class="btn btn--sand">Khám phá tour <i class="fa-solid fa-arrow-right"></i></a><a href="#experience" class="txtlink">Xem trải nghiệm</a></div>
+    </div>
+    <aside class="float">
+      <span class="float__tag">Tour được yêu thích</span>
+      <b>Tour 3 đảo Nha Trang</b>
+      <div><small>Từ</small> 599.000đ <i class="fa-solid fa-arrow-right"></i></div>
+    </aside>
+  </div>
+</section>
+
+<!-- Booking card -->
+<section class="bk"><div class="wrap">
+  <form class="book" onsubmit="event.preventDefault();document.getElementById('featured').scrollIntoView({behavior:'smooth'})">
+    <label><span>Điểm đến</span><select><option>Nha Trang</option><option>Hòn Mun</option><option>Hòn Tằm</option><option>Vịnh Nha Trang</option></select></label>
+    <label><span>Ngày đi</span><input type="date"></label>
+    <label><span>Số khách</span><select><option>2 người</option><option>3–5 người</option><option>6+ người</option></select></label>
+    <button class="btn btn--ocean">Tìm tour <i class="fa-solid fa-arrow-right"></i></button>
+  </form>
+</div></section>
+
+<!-- About / Intro split -->
+<section class="sec about" id="about"><div class="wrap split">
+  <div class="about__img">
+    <div class="image-wrapper ph--a"><img src="assets/images/about-main.jpg" data-fb="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=70" alt="Du khách trên cano giữa vịnh Nha Trang" loading="lazy" decoding="async"></div>
+    <div class="image-wrapper ph--b"><img src="assets/images/about-second.jpg" data-fb="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&q=70" alt="Lặn ngắm san hô ở Nha Trang" loading="lazy" decoding="async"></div>
+  </div>
+  <div>
+    <p class="eyebrow eyebrow--dark">VỀ CHÚNG TÔI</p>
+    <h2 class="big">Không chỉ là chuyến đi.<br><em>Là cách bạn cảm Nha Trang.</em></h2>
+    <p class="muted">Chúng tôi là đội ngũ người Nha Trang, thiết kế tour biển đảo với giá rõ ràng, lịch trình minh bạch và hướng dẫn viên bản địa – để bạn chỉ cần lo tận hưởng.</p>
+    <div class="stats">
+      <div><b data-count="12000">0</b><span>khách hàng</span></div>
+      <div><b data-count="50">0</b><span>tour &amp; combo</span></div>
+      <div><b data-count="4.9" data-dec="1">0</b><span>điểm đánh giá</span></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- Featured Tours (editorial) -->
+<section class="sec sec--tight" id="featured"><div class="wrap">
+  <div class="head"><div><p class="eyebrow eyebrow--dark">TOUR NỔI BẬT</p><h2 class="big">Những hành trình<br>được yêu thích</h2></div><a href="#all" class="txtlink txtlink--dark">Xem tất cả tour <i class="fa-solid fa-arrow-right"></i></a></div>
+  <div class="fx">
+    <article class="lg"><div class="image-wrapper"><img src="assets/images/tour-3-dao.jpg" data-fb="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1100&q=75" alt="Tour 3 đảo Nha Trang" loading="lazy" decoding="async"></div>
+      <span class="badge">BESTSELLER</span>
+      <div class="lg__body">
+        <p class="meta"><i class="fa-regular fa-clock"></i> Đi về trong ngày · <i class="fa-solid fa-star"></i> 4.9 (286)</p>
+        <h3>Tour 3 đảo Nha Trang</h3>
+        <p>Cano cao tốc, lặn ngắm san hô và tiệc trưa trên đảo.</p>
+        <div class="lg__foot"><div class="pr"><small>Chỉ từ</small><b>599.000đ</b></div><a href="#cta" class="btn btn--sand">Đặt tour ngay</a></div>
+      </div>
+    </article>
+    <div class="sm-col">
+      <article class="sm"><div class="image-wrapper"><img src="assets/images/hon-mun.jpg" data-fb="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&q=70" alt="Tour Hòn Mun" loading="lazy" decoding="async"></div><div><span class="tag">Snorkeling</span><h3>Tour Hòn Mun</h3><p class="meta">Đi về trong ngày · ★ 4.8</p><div class="pr"><b>650.000đ</b><a href="#cta">Xem chi tiết <span class="ar">→</span></a></div></div></article>
+      <article class="sm"><div class="image-wrapper"><img src="assets/images/city-tour.jpg" data-fb="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=70" alt="City Tour Nha Trang" loading="lazy" decoding="async"></div><div><span class="tag">City</span><h3>City Tour Nha Trang</h3><p class="meta">1 ngày · ★ 4.7</p><div class="pr"><b>499.000đ</b><a href="#cta">Xem chi tiết <span class="ar">→</span></a></div></div></article>
+      <article class="sm"><div class="image-wrapper"><img src="assets/images/hon-tam.jpg" data-fb="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=400&q=70" alt="Tour Hòn Tằm" loading="lazy" decoding="async"></div><div><span class="tag">Nghỉ dưỡng đảo</span><h3>Tour Hòn Tằm</h3><p class="meta">Đi về trong ngày · ★ 4.8</p><div class="pr"><b>850.000đ</b><a href="#cta">Xem chi tiết <span class="ar">→</span></a></div></div></article>
+    </div>
+  </div>
+</div></section>
+
+<!-- Experience (full-width panels) -->
+<section class="exp" id="experience">
+  <div class="exp__head wrap"><p class="eyebrow">TRẢI NGHIỆM</p><h2 class="big big--light">Bạn muốn trải nghiệm điều gì?</h2></div>
+  <div class="panels">
+    <a href="#all" class="pn"><div class="image-wrapper"><img src="assets/images/exp-island.jpg" data-fb="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=70" alt="Tour biển đảo" loading="lazy" decoding="async"></div><i>01</i><h3>Tour biển đảo</h3><p>Island hopping, cano, tiệc trên biển</p></a>
+    <a href="#all" class="pn"><div class="image-wrapper"><img src="assets/images/exp-experience.jpg" data-fb="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=70" alt="Tour trải nghiệm" loading="lazy" decoding="async"></div><i>02</i><h3>Tour trải nghiệm</h3><p>Lặn san hô, tắm bùn, sunset</p></a>
+    <a href="#all" class="pn"><div class="image-wrapper"><img src="assets/images/exp-city.jpg" data-fb="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=70" alt="City Tour" loading="lazy" decoding="async"></div><i>03</i><h3>City Tour</h3><p>Tháp Bà, ẩm thực, văn hóa</p></a>
+    <a href="#all" class="pn"><div class="image-wrapper"><img src="assets/images/exp-family.jpg" data-fb="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&q=70" alt="Tour gia đình" loading="lazy" decoding="async"></div><i>04</i><h3>Tour gia đình</h3><p>Nhẹ nhàng, an toàn, có ưu đãi trẻ em</p></a>
+  </div>
+</section>
+
+<!-- All tours (horizontal scroll + filter) -->
+<section class="sec" id="all"><div class="wrap">
+  <div class="head"><div><p class="eyebrow eyebrow--dark">TẤT CẢ HÀNH TRÌNH</p><h2 class="big">Chọn cách đi của bạn</h2></div>
+    <div class="tabs" id="tabs"><button class="on" data-f="all">Tất cả</button><button data-f="island">Biển đảo</button><button data-f="city">City</button><button data-f="exp">Trải nghiệm</button><button data-f="family">Gia đình</button></div></div>
+</div>
+<div class="track" id="tourGrid"><!-- render bằng script.js --></div>
+</section>
+
+<!-- Combo (split) -->
+<section class="sec sec--sand" id="combo"><div class="wrap split split--top">
+  <div class="sticky">
+    <p class="eyebrow eyebrow--dark">COMBO DU LỊCH</p>
+    <h2 class="big">Trọn gói,<br><em>tiết kiệm hơn.</em></h2>
+    <p class="muted">Tour, khách sạn và xe đưa đón trong một gói – giá tốt hơn đặt lẻ.</p>
+    <a href="#cta" class="btn btn--ocean">Tư vấn combo</a>
+  </div>
+  <div class="list">
+    <article class="cb"><div class="image-wrapper"><img src="assets/images/combo-3n2d.jpg" data-fb="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=70" alt="Combo 3N2Đ Nha Trang" loading="lazy" decoding="async"></div><div><h3>Combo 3N2Đ Nha Trang</h3><p>Khách sạn 4★ + tour 3 đảo + city tour + xe đưa đón</p></div><div class="pr"><span class="off">-22%</span><del>3.190.000đ</del><b>2.490.000đ</b></div></article>
+    <article class="cb"><div class="image-wrapper"><img src="assets/images/combo-couple.jpg" data-fb="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=400&q=70" alt="Combo cặp đôi" loading="lazy" decoding="async"></div><div><h3>Combo cặp đôi 2N1Đ</h3><p>Resort view biển + tour Hòn Tằm + bữa tối hải sản</p></div><div class="pr"><span class="off">-18%</span><del>2.300.000đ</del><b>1.890.000đ</b></div></article>
+    <article class="cb"><div class="image-wrapper"><img src="assets/images/combo-family.jpg" data-fb="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400&q=70" alt="Combo gia đình" loading="lazy" decoding="async"></div><div><h3>Combo gia đình 3N2Đ</h3><p>Phòng family + tour đảo + vé vui chơi cho trẻ em</p></div><div class="pr"><span class="off">-15%</span><del>4.690.000đ</del><b>3.990.000đ</b></div></article>
+  </div>
+</div></section>
+
+<!-- Why us -->
+<section class="sec why"><div class="wrap">
+  <h2 class="big big--light">Vì sao chọn<br><em>Nha Trang Go Travel?</em></h2>
+  <div class="why__grid">
+    <div><i>01</i><h3>Giá minh bạch</h3><p>Không có chi phí ẩn.</p></div>
+    <div><i>02</i><h3>HDV địa phương</h3><p>Am hiểu Nha Trang và các điểm đến.</p></div>
+    <div><i>03</i><h3>Lịch trình rõ ràng</h3><p>Thông tin tour được trình bày chi tiết.</p></div>
+    <div><i>04</i><h3>Hỗ trợ nhanh</h3><p>Tư vấn khách hàng khi cần thiết.</p></div>
+  </div>
+</div></section>
+
+<!-- Discover (bento) -->
+<section class="sec" id="discover"><div class="wrap">
+  <div class="head"><div><p class="eyebrow eyebrow--dark">CẨM NANG</p><h2 class="big">Khám phá Nha Trang</h2></div></div>
+  <div class="bento">
+    <div class="bt b1"><div class="image-wrapper"><img src="assets/images/explore-hon-mun.jpg" data-fb="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1000&q=70" alt="Hòn Mun" loading="lazy" decoding="async"></div><span>Hòn Mun</span><small>Thiên đường san hô</small></div>
+    <div class="bt b2"><div class="image-wrapper"><img src="assets/images/explore-hon-tam.jpg" data-fb="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600&q=70" alt="Hòn Tằm" loading="lazy" decoding="async"></div><span>Hòn Tằm</span></div>
+    <div class="bt b3"><div class="image-wrapper"><img src="assets/images/explore-bay.jpg" data-fb="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=70" alt="Vịnh Nha Trang" loading="lazy" decoding="async"></div><span>Vịnh Nha Trang</span></div>
+    <div class="bt b4"><div class="image-wrapper"><img src="assets/images/explore-po-nagar.jpg" data-fb="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=70" alt="Tháp Bà Ponagar" loading="lazy" decoding="async"></div><span>Tháp Bà Ponagar</span></div>
+  </div>
+</div></section>
+
+<!-- Reviews -->
+<section class="sec sec--sand"><div class="wrap rv">
+  <blockquote class="rv__main"><div class="stars">★★★★★</div><p>“Tour tổ chức tốt, hướng dẫn viên nhiệt tình và lịch trình rất rõ ràng.”</p><cite>Nguyễn Minh Anh <small>· Nhóm bạn, Hà Nội</small></cite></blockquote>
+  <div class="rv__side">
+    <blockquote><div class="stars">★★★★★</div><p>“Giá đúng như báo, không phát sinh. Cả nhà mình đều rất vui.”</p><cite>Trần Quốc Bảo <small>· Gia đình</small></cite></blockquote>
+    <blockquote><div class="stars">★★★★☆</div><p>“Lặn ngắm san hô đẹp, nhân viên hỗ trợ nhanh. Sẽ quay lại.”</p><cite>Lê Thu Hà <small>· Cặp đôi</small></cite></blockquote>
+  </div>
+</div></section>
+
+<!-- CTA -->
+<section class="cta" id="cta"><div class="image-wrapper"><img src="assets/images/cta-ocean.jpg" data-fb="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1800&q=60" alt="Biển Nha Trang" loading="lazy" decoding="async"></div><div class="wrap">
+  <h2 class="big big--light">Chưa biết nên<br><em>chọn tour nào?</em></h2>
+  <p>Hãy để chúng tôi giúp bạn tìm hành trình phù hợp.</p>
+  <a href="tel:0900123456" class="btn btn--sand btn--lg"><i class="fa-solid fa-phone"></i> Tư vấn ngay</a>
+  <ol class="steps"><li>Chọn tour</li><li>Gửi thông tin</li><li>Xác nhận</li><li>Lên đường</li></ol>
+</div></section>
+</main>
+
+<!-- Footer -->
+<footer class="ft" id="contact"><div class="wrap ft__grid">
+  <div><h4>Nha Trang Go Travel</h4>
+    <p>Trụ sở: 123 Trần Phú, P. Lộc Thọ, TP. Nha Trang, Khánh Hòa</p>
+    <p>Văn phòng: 45 Nguyễn Thị Minh Khai, TP. Nha Trang</p>
+    <p class="dim">Thương hiệu giả định – dùng cho bài tập demo.</p>
+    <div class="pay"><span>MoMo</span><span>VNPay</span><span>VISA</span><span>Mastercard</span></div></div>
+  <div><h4>Thông tin</h4><ul><li><a href="#about">Giới thiệu</a></li><li><a href="#contact">Điều khoản</a></li><li><a href="#contact">Chính sách đổi trả</a></li><li><a href="#contact">Chính sách bảo mật</a></li><li><a href="#discover">Cẩm nang du lịch</a></li><li><a href="#contact">Câu hỏi thường gặp</a></li></ul></div>
+  <div><h4>Tư vấn</h4><p>Hotline 24/7</p><p class="big">0900 123 456</p><p class="big">0900 654 321</p><p>hello@nhatranggotravel.vn</p>
+    <div class="social"><a href="#top" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#top" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a><a href="#top" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a><a href="#top" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></div></div>
+</div><div class="wrap ft__b">© 2026 Nha Trang Go Travel</div></footer>
+<a href="tel:0900123456" class="callfab" aria-label="Gọi ngay"><i class="fa-solid fa-phone"></i></a>
+<script src="script.js"></script>
+</body>
+</html>
